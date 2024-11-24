@@ -1,3 +1,5 @@
+const mongoose = require('mongoose');
+
 const AccountSchema = new mongoose.Schema({
   accountName: { type: String, required: true },
   balance: { type: Number, default: 0 },
